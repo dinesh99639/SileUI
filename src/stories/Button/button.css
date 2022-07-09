@@ -1,0 +1,39 @@
+.sileui {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  outline: 0;
+  border-radius: 0.4em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+.sileui--primary {
+  color: white;
+  background-color: #1e86fd;
+}
+.sileui--secondary {
+  color: #333;
+  background-color: transparent;
+}
+
+.sileui--s {
+  font-size: 12px;
+  padding: 8px 14px;
+}
+.sileui--m {
+  font-size: 13px;
+  padding: 9px 15px;
+}
+.sileui--l {
+  font-size: 13px;
+  padding: 11px 17px;
+}
+
+.elevation {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.elevation:active {
+  box-shadow: none;
+}
